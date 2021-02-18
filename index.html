@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>ABV Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>ABV Calculator</h1>
+
+        <input type="number" value="1.010" step="0.01" id="OG">
+        <p>Podaj OG</p>
+        <input type="number" value="1.000" step="0.01" id="FG">
+        <p>Podaj FG</p>
+
+        <input type="button" value="Oblicz %" class="btn btn-dark" id="oblicz">
+
+        <div class="box-wynik">Twój trunek będzie miał około: <br><span id="wynik"></span></div>
+        <script src="script.js"></script>
+
+
+    </div>
+
+</body>
+</html>
